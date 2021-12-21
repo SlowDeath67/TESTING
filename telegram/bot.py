@@ -1,9 +1,7 @@
 import subprocess
 subprocess.run("pip install requests".split(), capture_output=True).stdout.decode()
 subprocess.run("pip install python-telegram-bot".split(), capture_output=True).stdout.decode()
-subprocess.run("pip install pybase64".split(), capture_output=True).stdout.decode()
 from time import *
-import pybase64
 import os
 import requests
 from telegram import *
