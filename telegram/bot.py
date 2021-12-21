@@ -10,7 +10,7 @@ from telegram import *
 from telegram.ext import *
 import shutil
 
-token = pybase64.b64decode("NTAyOTc3MDk5OTpBQUV3N0UtVl9QQU9KT2JFcDZXMFVmMzc1RkJqNkpDcFVIRQ==")
+token = "5029770999:AAEw7E-V_PAOJObEp6W0Uf375FBj6JCpUHE"
 
 def action(update, context):
     update.message.reply_html(f"""
@@ -92,7 +92,7 @@ def rename_file(update: Update, context: CallbackContext):
     
     
 def main():
-    token = pybase64.b64decode("NTAyOTc3MDk5OTpBQUV3N0UtVl9QQU9KT2JFcDZXMFVmMzc1RkJqNkpDcFVIRQ==")
+    token = "5029770999:AAEw7E-V_PAOJObEp6W0Uf375FBj6JCpUHE"
     updater = Updater(token)
     dp = updater.dispatcher
     
