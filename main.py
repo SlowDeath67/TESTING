@@ -1,9 +1,7 @@
-import subprocess
-import os
+import subprocess, os, pyfiglet
 from time import *
 subprocess.run("pip install -r requirements.txt".split())
 os.system("clear")
-import pyfiglet
 
 def logo():
   print("""
