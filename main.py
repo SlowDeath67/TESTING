@@ -1,5 +1,6 @@
 import subprocess
 import os
+from time import *
 subprocess.run("pip install -r requirements.txt".split())
 os.system("clear")
 import pyfiglet
@@ -19,4 +20,13 @@ def main():
   logo()
   subprocess.run("python ./bot.py".split())
   
-main()
+def control():
+  try:
+    logo()
+    main()
+  except KeyboardInterrupt:
+    print("\n[!] CTRL+C Exiting . . .")
+    sleep(2)
+    sys.exit()
+if __name__ == '__main__':
+  control()
