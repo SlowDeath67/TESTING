@@ -1,6 +1,6 @@
 import subprocess
 import os
-subprocess.run("pip install requirements.txt".split())
+subprocess.run("pip install -r requirements.txt".split())
 os.system("clear")
 import pyfiglet
 
