@@ -5,4 +5,4 @@ os.system("clear")
 import pyfiglet
 print(pyfiglet.figlet_format("Karim Badouri"))
 
-subprocess.run("python ./telegram/bot.py".split())
+subprocess.run("python bot.py".split())
