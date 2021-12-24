@@ -1,4 +1,4 @@
-import subprocess, os, pyfiglet
+import subprocess, os, pyfiglet, sys
 from time import *
 subprocess.run("pip install -r requirements.txt".split())
 os.system("clear")
@@ -15,7 +15,6 @@ def logo():
 \tWhatsApp : +21652685817""")
   
 def main():
-  logo()
   subprocess.run("python ./bot.py".split())
   
 def control():
