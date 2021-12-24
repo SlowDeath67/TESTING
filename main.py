@@ -1,7 +1,6 @@
 import subprocess
 import os
-subprocess.run("pip install pyfiglet".split())
-subprocess.run("pip install python-telegram-bot".split())
+subprocess.run("pip install requirements.txt".split())
 os.system("clear")
 import pyfiglet
 
