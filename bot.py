@@ -1,6 +1,4 @@
 import subprocess
-subprocess.run("pip install requests".split())
-subprocess.run("pip install python-telegram-bot".split())
 from time import *
 import os
 import requests
